@@ -1074,6 +1074,19 @@ addOptions()
 	}
 	
 	self AddMenu( "set1", 12, "Bots can ads: " + _temp, ::bot_func, "ads", _tempDvar );
+
+	_tempDvar = getdvarint( "bots_main_chat" );
+
+	if ( _tempDvar )
+	{
+		_temp = "true";
+	}
+	else
+	{
+		_temp = "false";
+	}
+
+	self AddMenu( "set1", 13, "Bots can chat: " + _temp, ::bot_func, "chat", _tempDvar);
 }
 
 bot_func( a, b )
@@ -1143,6 +1156,11 @@ bot_func( a, b )
 		case "ads":
 			setdvar( "bots_play_ads", !b );
 			self iprintln( "Bots ads: " + !b );
+			break;
+
+		case "chat":
+			setdvar( "bots_main_chat", !b);
+			self iprintLn ("Bots can chat: " + !b);
 			break;
 	}
 }
