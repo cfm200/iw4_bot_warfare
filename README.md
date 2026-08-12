@@ -7,6 +7,16 @@ It aims to add playable AI to the multiplayer games of Modern Warfare 2.
 
 You can find the ModDB release post [here](https://www.moddb.com/mods/bot-warfare/downloads/iw4-bot-warfare-latest).
 
+## Fork & Contributions
+
+This is a personal fork of **IW4 Bot Warfare** by [INeedBots](https://github.com/ineedbots), with additional functionality developed independently.
+
+### My Contribution
+
+- Added an in-game **Bot Chat Toggle**, allowing bot chat to be enabled or disabled directly from the bot settings menu.
+
+Original project and contributors are fully credited below.
+
 ## Contents
 - [Features](#Features)
 - [Installation](#Installation)
