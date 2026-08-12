@@ -280,6 +280,8 @@ init()
 	level.bots_fullautoguns[ "ak47classic" ] = true;
 	level.bots_fullautoguns[ "ak74u" ] = true;
 	level.bots_fullautoguns[ "peacekeeper" ] = true;
+
+	level.botNames = ["CiaranGPT"];
 	
 	level thread fixGamemodes();
 	level thread fixPredMissile();
@@ -783,6 +785,7 @@ add_bot()
 		bot.pers[ "isBot" ] = true;
 		bot.pers[ "isBotWarfare" ] = true;
 		bot thread added();
+		bot.name = level.botNames[0];
 	}
 }
 
