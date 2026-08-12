@@ -14,7 +14,7 @@ This is a personal fork of **IW4 Bot Warfare** by [INeedBots](https://github.com
 ### My Contribution
 
 - Added an in-game **Bot Chat Toggle**, allowing bot chat to be enabled or disabled directly from the bot settings menu.
-(/bw-assets/bot-chat-toggle.png)
+![Bot Chat Toggle](bw-assets/bot-chat-toggle.png)
 
 Original project and contributors are fully credited below.
 
